@@ -52,6 +52,7 @@ class ActionsEnum:
     GET_SOURCE_CODE: str = "getsourcecode"
     GET_STATUS: str = "getstatus"
     GET_TX_RECEIPT_STATUS: str = "gettxreceiptstatus"
+    NODE_COUNT: str = "nodecount"
     TOKEN_BALANCE_HISTORY: str = "tokenbalancehistory"
     TOKEN_BALANCE: str = "tokenbalance"
     TOKEN_INFO: str = "tokeninfo"

@@ -114,6 +114,10 @@
     "module": "stats",
     "kwargs": {}
   },
+  "get_total_nodes_count": {
+    "module": "stats",
+    "kwargs": {}
+  },
   "get_eth_last_price": {
     "module": "stats",
     "kwargs": {}

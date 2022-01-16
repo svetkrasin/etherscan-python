@@ -45,3 +45,13 @@ class Stats:
             f"{sort}"
         )
         return url
+
+    @staticmethod
+    def get_total_nodes_count() -> str:
+        url = (
+            f"{fields.MODULE}"
+            f"{modules.STATS}"
+            f"{fields.ACTION}"
+            f"{actions.NODE_COUNT}"
+        )
+        return url
